@@ -3,30 +3,35 @@
 //Create a variable called myName that is a string data type
 
 //Code here
+var myName = 'David Peacock';
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+var myAge = 25;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
+var greatestFear = ;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+var devMountainGoal = null; 
 
 //////////////////PROBLEM 6////////////////////
 
@@ -36,6 +41,10 @@
 //plus the value of the name parameter.
 
 //Code here
+function greeting(name){
+  return 'Hello';
+}
+greeting();
 
 //////////////////PROBLEM 7////////////////////
 
@@ -43,6 +52,10 @@
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
+function newGreeting(name){
+  return 'Hello';
+}
+newGreeting();
 
 //////////////////PROBLEM 8////////////////////
 
@@ -50,6 +63,7 @@
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+groceries['apples', 'milk', 'eggs', 'bread']
 
 //////////////////PROBLEM 9////////////////////
 
@@ -59,11 +73,13 @@
 //and goodBoy (a boolean).
 
 //Code Here
+var dog = {firstName: 'Winchester', color: 'bland-and-white', age: '4', goodBoy: true};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+var devMountainClassPet = Winchester;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -75,6 +91,13 @@
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
+function nameCheck(name){
+  if (name === Steven){
+    return 'What is up Steven?'
+  } else (name === Bryan){
+    return 'Hey Bryan!'
+  } return 'Cool name, NAMEPARAM'
+}
 
 //////////////////PROBLEM 11////////////////////
 
@@ -83,11 +106,16 @@
 // The add function should return the two parameters added together
 
 //Code Here
+function add (num1, num2){
+  return (num1 + num2)
+}
+add (15, 87);
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
+var mathSum = add (15, 87);
 
 //////////////////PROBLEM 12////////////////////
 
@@ -99,6 +127,18 @@
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+function faveColorFinder (color){
+  if (color === red){
+    return 'red is a great color'
+  }
+  else if (color === green){
+    return 'green is a solid favorite color'
+  }
+  else (color === black){
+    return 'so trendy'
+  }
+  return 'you need to evaluate your favorite color choice'
+}
 
 //////////////////PROBLEM 13////////////////////
 
@@ -122,28 +162,31 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ["duck", "rubberDuck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
 
 // Code Here
+var age = 25;
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
+var age = 26;
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
+var age = 999;
